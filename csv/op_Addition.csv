@@ -1,0 +1,15 @@
+a+b,Boolean,Byte,SByte,Int16,UInt16,Int32,UInt32,Int64,UInt64,Char,Double,Single,Decimal,String
+Boolean,,,,,,,,,,,,,,System.String
+Byte,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32,System.Int64,System.UInt64,System.Int32,System.Double,System.Single,System.Decimal,System.String
+SByte,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Int64,,System.Int32,System.Double,System.Single,System.Decimal,System.String
+Int16,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Int64,,System.Int32,System.Double,System.Single,System.Decimal,System.String
+UInt16,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32,System.Int64,System.UInt64,System.Int32,,System.Single,System.Decimal,System.String
+Int32,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.Int64,,System.Int32,System.Double,System.Single,System.Decimal,System.String
+UInt32,,System.UInt32,System.Int64,System.Int64,System.UInt32,System.Int64,System.UInt32,System.Int64,System.UInt64,System.UInt32,System.Double,System.Single,System.Decimal,System.String
+Int64,,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,,System.Int64,System.Double,System.Single,System.Decimal,System.String
+UInt64,,System.UInt64,,,System.UInt64,,System.UInt64,,System.UInt64,System.UInt64,System.Double,System.Single,System.Decimal,System.String
+Char,,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.UInt32,System.Int64,System.UInt64,System.Int32,System.Double,System.Single,System.Decimal,System.String
+Double,,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,,System.String
+Single,,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Double,System.Single,,System.String
+Decimal,,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,,,System.Decimal,System.String
+String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String
