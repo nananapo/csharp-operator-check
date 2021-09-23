@@ -1,24 +1,18 @@
+using System;
+using System.Security.Cryptography.X509Certificates;
+
 public class Test
 {
     static void Main(string[] args)
     {
-        A a = new B();
-        B b = new B();
-
-        var d = a + b;
+        A a = new A();
+        var c = a + a;
+        Console.WriteLine(c.GetType().Name);
     }
 }
 
 public class A
 {
-    public static implicit operator B(A a) => new B();
-
-    public static A operator -(A a, A a2) => a;
-}
-
-public class B
-{
-    public static implicit operator A(B b) => new A();
-        
-    public static B operator +(B a, B a2) => a;
+    public static implicit operator long(A a) => 0;
+    public static implicit operator float(A a) => 0;
 }
